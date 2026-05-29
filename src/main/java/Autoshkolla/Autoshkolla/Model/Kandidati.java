@@ -83,4 +83,4 @@ public void setRole(String v) { this.role = v; }
     public List<Regjistrimi> getRegjistrimet() { return regjistrimet; }
     public void setRegjistrimet(List<Regjistrimi> regjistrimet) { this.regjistrimet = regjistrimet; }
 }
-Kandidati 
+Kandidatii
