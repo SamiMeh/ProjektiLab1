@@ -3,11 +3,11 @@ package Autoshkolla.Autoshkolla;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"Autoshkolla.Autoshkolla", "Autoshkolla.security"})
 public class AutoshkollaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AutoshkollaApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(AutoshkollaApplication.class, args);
+    }
 
 }

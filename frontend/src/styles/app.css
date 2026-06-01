@@ -1,0 +1,85 @@
+:root {
+  --brand: #f47b20;
+  --brand-dark: #d96a10;
+  --navy: #1e2d5a;
+  --bg: #f4f6fb;
+}
+
+body {
+  background: var(--bg);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, var(--navy) 0%, #2a4078 100%);
+}
+
+.kandidat-nav-pills .nav-link {
+  border-radius: 999px;
+  color: #64748b;
+  font-weight: 500;
+  padding: 0.45rem 1rem;
+  white-space: nowrap;
+}
+
+.kandidat-nav-pills .nav-link.active {
+  background: #fff4eb;
+  color: var(--brand);
+  font-weight: 600;
+}
+
+.admin-sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background: #fff;
+  border-right: 1px solid #e9eef3;
+}
+
+.admin-sidebar .nav-link {
+  color: #4a5b6e;
+  border-radius: 12px;
+  padding: 0.55rem 0.85rem;
+  margin-bottom: 2px;
+}
+
+.admin-sidebar .nav-link.active,
+.admin-sidebar .nav-link:hover {
+  background: #fff4eb;
+  color: var(--brand);
+}
+
+.stat-card {
+  border: none;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+}
+
+.login-hero {
+  background: linear-gradient(145deg, #1e2d5a 0%, #2d4a8a 50%, #f47b20 120%);
+  color: #fff;
+}
+
+.login-hero .fw-bold,
+.login-hero small {
+  color: #fff;
+}
+
+.table-card {
+  border: none;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.page-loading {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
